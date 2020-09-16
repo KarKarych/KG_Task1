@@ -11,7 +11,7 @@ public class MyPanel extends JPanel implements ActionListener {
     int x = 0;
 
     MyPanel() {
-        vehicle = new ImageIcon("pigPeter.png").getImage();
+        vehicle = new ImageIcon("horse.png").getImage();
         Timer timer = new Timer(1, this);
         timer.start();
     }
@@ -30,8 +30,8 @@ public class MyPanel extends JPanel implements ActionListener {
 
         new Town().drawTown(g2d, height, width);
 
-        //g2d.drawImage(vehicle, 10 + x, this.road, 463 * index, 200, null);
-        g2d.drawImage(vehicle, 10 + x, this.road, 200 * index, 200, null);
+        g2d.drawImage(vehicle, 10 + x, this.road, 463 * index, 200, null);
+        //g2d.drawImage(vehicle, 10 + x, this.road, 200 * index, 200, null);
     }
 
     @Override

@@ -17,7 +17,7 @@ public class MyFrame extends JFrame {
 
         Clip clip = AudioSystem.getClip();
         //clip.open(AudioSystem.getAudioInputStream(new File("Garmarna - Herr Mannelig.wav")));
-        clip.open(AudioSystem.getAudioInputStream(new File("pig.wav")));
+        clip.open(AudioSystem.getAudioInputStream(new File("Garmarna - Herr Mannelig.wav")));
         clip.loop(Clip.LOOP_CONTINUOUSLY);
 
         setPreferredSize(new Dimension(1215, 1000));
