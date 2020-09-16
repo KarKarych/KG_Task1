@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Computer_Graphics:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Computer_Graphics_jar</output-path>
+    <root id="archive" name="Computer_Graphics.jar">
+      <element id="module-output" name="Computer_Graphics" />
+      <element id="file-copy" path="$PROJECT_DIR$/pig.wav" />
+      <element id="file-copy" path="$PROJECT_DIR$/pigPeter.png" />
+    </root>
+  </artifact>
+</component>
